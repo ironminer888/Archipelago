@@ -117,7 +117,9 @@ original_correct_answers = {
     53: 2,
 }
 
-# Note to self: no more than 31 characters per line in a question!
+# Note to self: no more than 31 characters per line in a trivia question!
+
+# Answers can be up to 24 characters long
         
 trivia_easy_a_link_to_the_past = [
     TriviaQuestion(
@@ -3930,7 +3932,7 @@ trivia_hard_ocarina_of_time = [
             """°""", 
             """°""", 
         ],
-        """Give Zelda's letter to the°        trail guard in Kakariko°""", 
+        """Give a letter to the°         trail guard in Kakariko°""", 
         """Finding the salesman in°        Goron City°""", 
         """Entering the shop at°        night°""", 
     ),
