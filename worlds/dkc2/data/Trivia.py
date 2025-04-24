@@ -116,6 +116,8 @@ original_correct_answers = {
     52: 0,
     53: 2,
 }
+
+# Note to self: no more than 31 characters per line in a question!
         
 trivia_easy_a_link_to_the_past = [
     TriviaQuestion(
@@ -123,7 +125,7 @@ trivia_easy_a_link_to_the_past = [
             """°""", 
             """  In A Link to the Past, what°""", 
             """   is the name of the boss in°""", 
-            """         Desert Palace?°""", 
+            """      the Desert Palace?°""", 
             """°""", 
             """°""", 
         ],
@@ -135,7 +137,7 @@ trivia_easy_a_link_to_the_past = [
         [
             """°""", 
             """°""", 
-            """  When does Armor Knights turn°""", 
+            """  When do the Armor Knights turn°""", 
             """   red in A Link to the Past?°""", 
             """°""", 
             """°""", 
@@ -148,8 +150,8 @@ trivia_easy_a_link_to_the_past = [
         [
             """°""", 
             """°""", 
-            """  How many eyes Moldorm has in°""", 
-            """      A Link to the Past?°""", 
+            """  How many eyes does Moldorm have°""", 
+            """     in A Link to the Past?°""", 
             """°""", 
             """°""", 
         ],
@@ -308,7 +310,7 @@ trivia_easy_cave_story = [
     TriviaQuestion(
         [
             """°""", 
-            """    Which objects are shoot°""", 
+            """    Which objects are shot°""", 
             """     from a level 3 Nemesis°""", 
             """         in Cave Story?°""", 
             """°""", 
@@ -566,7 +568,7 @@ trivia_easy_donkey_kong_country_2 = [
             """°""", 
             """   In Donkey Kong Country 2,°""", 
             """ how many times do you have to°""", 
-            """     hit Krow to kill him?°""", 
+            """    hit Krow to defeat him?°""", 
             """°""", 
             """°""", 
         ],
@@ -580,7 +582,7 @@ trivia_easy_donkey_kong_country_3 = [
     TriviaQuestion(
         [
             """°""", 
-            """     How many brother bears°""", 
+            """     How many Brothers Bear°""", 
             """     are present in Donkey°""", 
             """        Kong Country 3?°""", 
             """°""", 
@@ -689,10 +691,10 @@ trivia_easy_earthbound = [
 trivia_easy_final_fantasy_mystic_quest = [
     TriviaQuestion(
         [
+            """°""",
             """°""", 
-            """       In Final Fantasy:°""", 
-            """   Mystic Quest, what is the°""", 
-            """           level cap?°""", 
+            """  What is the level cap in°""", 
+            """  Final Fantasy: Mystic Quest?°""", 
             """°""", 
             """°""", 
         ],
@@ -792,16 +794,29 @@ trivia_easy_kingdom_hearts = [
 trivia_easy_kingdom_hearts_2 = [
     TriviaQuestion(
         [
+            """In Kingdom Hearts 2,°""",
+            """how many Keyblades does Roxas°""", 
+            """pull out in front of Axel°""", 
+            """during their fight inside°""", 
+            """the simulated Twilight Town?°""", 
             """°""", 
+        ],
+        """Two?!°°""", 
+        """Five?!°°""", 
+        """Three?!°°""", 
+    ),
+    TriviaQuestion(
+        [
             """°""", 
-            """ How many Keyblades Roxas pulls°""", 
-            """      out afront of Axel?°""", 
+            """In Kingdom Hearts 2, which°""", 
+            """of these worlds does NOT grant°""", 
+            """Sora a unique player model?°""", 
             """°""", 
             """°""", 
         ],
-        """TWO!?°°""", 
-        """FIVE!?°°""", 
-        """THREE!?°°""", 
+        """Olympus Colosseum°°""", 
+        """Timeless River°°""", 
+        """Halloween Town°°""", 
     ),
 ]
 
@@ -864,9 +879,9 @@ trivia_easy_kirby_super_star = [
     TriviaQuestion(
         [
             """°""", 
-            """    Which Kirby Super Star's°""", 
-            """   game features King Dedede°""", 
-            """        as a final boss?°""", 
+            """    Which Kirby Super Star°""", 
+            """ game features King Dedede°""", 
+            """        as the final boss?°""", 
             """°""", 
             """°""", 
         ],
@@ -877,9 +892,9 @@ trivia_easy_kirby_super_star = [
     TriviaQuestion(
         [
             """°""", 
-            """    Which Kirby Super Star's°""", 
-            """     game features Marx as°""", 
-            """         a final boss?°""", 
+            """    Which Kirby Super Star°""", 
+            """   game mode features Marx°""", 
+            """       as the final boss?°""", 
             """°""", 
             """°""", 
         ],
@@ -890,9 +905,9 @@ trivia_easy_kirby_super_star = [
     TriviaQuestion(
         [
             """°""", 
-            """    Which Kirby Super Star's°""", 
-            """  game features Wham Bam Rock°""", 
-            """        as a final boss?°""", 
+            """    Which Kirby Super Star°""", 
+            """game mode features Wham Bam Rock°""", 
+            """        as the final boss?°""", 
             """°""", 
             """°""", 
         ],
@@ -946,7 +961,7 @@ trivia_easy_kirbys_dream_land_3 = [
         [
             """°""", 
             """       Which enemy grants°""", 
-            """       the cutter ability°""", 
+            """   the Cutter copy ability°""", 
             """    in Kirby's Dream Land 3?°""", 
             """°""", 
             """°""", 
@@ -1295,8 +1310,9 @@ trivia_easy_math = [
     TriviaQuestion(
         [
             """°""", 
-            """°""", 
-            """What is the result of 6/2(1+2)?°""", 
+            """°""",
+            """Solve this equation:°""" 
+            """           6/2(1+2)=?°""", 
             """°""", 
             """°""", 
             """°""", 
@@ -1308,7 +1324,8 @@ trivia_easy_math = [
     TriviaQuestion(
         [
             """°""", 
-            """°""", 
+            """°""",
+            """Solve this equation:°""" 
             """            1-(-1)=?°""", 
             """°""", 
             """°""", 
@@ -1351,7 +1368,7 @@ trivia_easy_mega_man_2 = [
         [
             """°""", 
             """°""", 
-            """     Who is the main villan°""", 
+            """     Who is the main villain°""", 
             """         of Mega Man 2?°""", 
             """°""", 
             """°""", 
@@ -1393,8 +1410,8 @@ trivia_easy_mega_man_3 = [
         [
             """°""", 
             """°""", 
-            """  In Mega Man 3, who is behind°""", 
-            """   the identity of Break Man?°""", 
+            """    In Mega Man 3, who is°""", 
+            """   Break Man's true identity?°""", 
             """°""", 
             """°""", 
         ],
@@ -1406,7 +1423,7 @@ trivia_easy_mega_man_3 = [
         [
             """°""", 
             """°""", 
-            """   In Mega Man 3, What is the°""", 
+            """   In Mega Man 3, what is the°""", 
             """  name of your dog companion?°""", 
             """°""", 
             """°""", 
@@ -1601,7 +1618,7 @@ trivia_easy_ocarina_of_time = [
             """°""", 
             """   Which Ocarina of Time song°""", 
             """   allows to change the time°""", 
-            """    of the day in the game?°""", 
+            """     of day in the game?°""", 
             """°""", 
             """°""", 
         ],
@@ -1835,8 +1852,8 @@ trivia_easy_pokemon_crystal = [
             """°""", 
             """°""", 
         ],
-        """Using the Squirtbottle°°""", 
-        """Using the PokeFlute°°""", 
+        """Using the SquirtBottle°°""", 
+        """Using the Poke Flute°°""", 
         """Using the Wailmer Pail°°""", 
     ),
     TriviaQuestion(
@@ -1869,7 +1886,7 @@ trivia_easy_pokemon_crystal = [
         [
             """°""", 
             """   In Pokemon Crystal, which°""", 
-            """ shiny pokemon can be found in°""", 
+            """ shiny Pokemon can be found in°""", 
             """       the Lake of Rage?°""", 
             """°""", 
             """°""", 
@@ -1909,8 +1926,8 @@ trivia_easy_pokemon_crystal = [
             """°""", 
             """°""", 
             """  In Pokemon Crystal, which of°""", 
-            """  these is NOT a Johto Badge?°""", 
-            """°""", 
+            """  these Gym Badges is NOT°""", 
+            """  from the Johto region?°""", 
             """°""", 
         ],
         """Mine Badge°°""", 
@@ -1986,8 +2003,8 @@ trivia_easy_pokemon_crystal = [
         [
             """°""", 
             """  In Pokemon Crystal, which of°""", 
-            """ these places is NOT located in°""", 
-            """        Goldenrod City?°""", 
+            """ these buildings is NOT located°""", 
+            """    in Goldenrod City?°""", 
             """°""", 
             """°""", 
         ],
@@ -1999,8 +2016,8 @@ trivia_easy_pokemon_crystal = [
         [
             """°""", 
             """  In Pokemon Crystal, where do°""", 
-            """  you see the Legendary Beasts°""", 
-            """        the first time?°""", 
+            """  you see Raikou, Entei and°""", 
+            """  Suicine for the first time?°""", 
             """°""", 
             """°""", 
         ],
@@ -2309,8 +2326,8 @@ trivia_easy_super_mario_world = [
         [
             """°""", 
             """°""", 
-            """  How many exits are there in°""", 
-            """       Super Mario World?°""", 
+            """  How many level exits are there°""", 
+            """      in Super Mario World?°""", 
             """°""", 
             """°""", 
         ],
@@ -2379,9 +2396,9 @@ trivia_easy_super_mario_world = [
             """°""", 
             """°""", 
         ],
-        """Riding a Yoshi°°""", 
+        """Riding Yoshi°°""", 
         """Having a Fire Flower°°""", 
-        """A P-Switch is active°°""", 
+        """While a P-Switch° is active°°""", 
     ),
     TriviaQuestion(
         [
@@ -2560,8 +2577,8 @@ trivia_easy_the_legend_of_zelda = [
             """°""", 
             """°""", 
         ],
-        """an Old Woman°°""", 
-        """an Old Man°°""", 
+        """an old woman°°""", 
+        """an old man°°""", 
         """a Moblin°°""", 
     ),
     TriviaQuestion(
@@ -2573,7 +2590,7 @@ trivia_easy_the_legend_of_zelda = [
             """°""", 
             """°""", 
         ],
-        """A moblin°°""", 
+        """A Moblin°°""", 
         """An old man°°""", 
         """An old woman°°""", 
     ),
@@ -2581,14 +2598,14 @@ trivia_easy_the_legend_of_zelda = [
         [
             """°""", 
             """°""", 
-            """  In the Legend of Zelda, who°""", 
+            """  In The Legend of Zelda, who°""", 
             """      offers Link a sword?°""", 
             """°""", 
             """°""", 
         ],
         """An old man°°""", 
         """An old woman°°""", 
-        """A moblin°°""", 
+        """A Moblin°°""", 
     ),
 ]
 
@@ -2675,7 +2692,7 @@ trivia_hard_a_link_to_the_past = [
             """°""", 
             """ In A Link to the Past, in the°""", 
             """    official manual, what is°""", 
-            """      Ganondorf last name?°""", 
+            """    Ganondorf's family name?°""", 
             """°""", 
             """°""", 
         ],
@@ -2714,7 +2731,7 @@ trivia_hard_a_link_to_the_past = [
             """°""", 
             """°""", 
             """  Where is the Magic Mushroom°""", 
-            """      located at in ALTTP?°""", 
+            """      located in ALTTP?°""", 
             """°""", 
             """°""", 
         ],
@@ -2745,8 +2762,8 @@ trivia_hard_adventure = [
         [
             """°""", 
             """°""", 
-            """   In Adventure, where would°""", 
-            """      one see the credits?°""", 
+            """   In Adventure on Atari 2600,°""", 
+            """   where would one see the credits?°""", 
             """°""", 
             """°""", 
         ],
@@ -2768,7 +2785,7 @@ trivia_hard_astalon = [
         ],
         """Lydia°°""", 
         """Medusa°°""", 
-        """The same as Arias's°°""", 
+        """The same as Arias'°°""", 
     ),
 ]
 
@@ -3011,7 +3028,7 @@ trivia_hard_donkey_kong_64 = [
             """°""", 
             """ In Donkey Kong 64, which bonus°""", 
             """  stage requires the player to°""", 
-            """    shoot at golden bananas?°""", 
+            """    shoot at Golden Bananas?°""", 
             """°""", 
             """°""", 
         ],
@@ -3070,7 +3087,7 @@ trivia_hard_donkey_kong_country_2 = [
             """°""", 
             """°""", 
         ],
-        """A pair of 2°°""", 
+        """A pair of 2's°°""", 
         """6 and 4°°""", 
         """3 and 5°°""", 
     ),
@@ -3083,7 +3100,7 @@ trivia_hard_donkey_kong_country_2 = [
             """°""", 
             """°""", 
         ],
-        """4 Giant Bananas°°""", 
+        """4 giant bananas°°""", 
         """A black tire°°""", 
         """A SNES controller°°""", 
     ),
@@ -3367,16 +3384,16 @@ trivia_hard_hollow_knight = [
 trivia_hard_kingdom_hearts = [
     TriviaQuestion(
         [
-            """°""", 
-            """°""", 
-            """  What does Sora says to Riku°""", 
-            """  while on Hook's Pirate Ship°""", 
-            """°""", 
+            """  In Kingdom Hearts 1,°""", 
+            """  which of these lines does°""", 
+            """  Sora say to Riku while°""", 
+            """  confronting him aboard°""", 
+            """  Captain Hook's ship?°""",
             """°""", 
         ],
-        """You're Stupid!°°""", 
-        """I Implore to Reconsider!°°""", 
-        """I'm sorry Riku!°°""", 
+        """"You're stupid!"°°""", 
+        """"I implore you to°        reconsider!"°°""", 
+        """"I'm sorry, Riku!"°°""", 
     ),
 ]
 
@@ -3385,8 +3402,8 @@ trivia_hard_kingdom_hearts_2 = [
         [
             """°""", 
             """°""", 
-            """In the hit game Kingdom Hearts 2°""", 
-            """    What does DTD stand for?°""", 
+            """In the hit game Kingdom Hearts 2,°""", 
+            """    what does "DTD" stand for?°""", 
             """°""", 
             """°""", 
         ],
@@ -3427,7 +3444,8 @@ trivia_hard_kirby_64_the_crystal_shards = [
         [
             """°""", 
             """ How many different food items°""", 
-            """ can be produced via Ice-Spark°""", 
+            """ can be produced via°""", 
+            """ the Ice-Spark Power Combo"""
             """          in Kirby 64?°""", 
             """°""", 
             """°""", 
@@ -3472,7 +3490,7 @@ trivia_hard_kirbys_dream_land_3 = [
         [
             """°""", 
             """°""", 
-            """   What animal species Pon is°""", 
+            """   What animal species is Pon°""", 
             """    in Kirby's Dream Land 3?°""", 
             """°""", 
             """°""", 
@@ -3499,7 +3517,7 @@ trivia_hard_kirbys_dream_land_3 = [
             """°""", 
             """  In some Kirby's Dream Land 3°""", 
             """    levels you can find some°""", 
-            """     Waddlee Dees riding...°""", 
+            """     Waddle Dees riding...°""", 
             """°""", 
             """°""", 
         ],
@@ -3736,7 +3754,7 @@ trivia_hard_mega_man_3 = [
     TriviaQuestion(
         [
             """°""", 
-            """  In Mega Man 3, What computer°""", 
+            """  In Mega Man 3, what computer°""", 
             """      brand does Dr. Light°""", 
             """        have in his lab?°""", 
             """°""", 
@@ -3871,7 +3889,7 @@ trivia_hard_ocarina_of_time = [
             """°""", 
             """°""", 
         ],
-        """Speaking to a gatekeeper°        in DMT in Kakariko°""", 
+        """Give Zelda's letter to the°        trail guard in Kakariko°""", 
         """Finding the salesman in°        Goron City°""", 
         """Entering the shop at°        night°""", 
     ),
@@ -4110,8 +4128,8 @@ trivia_hard_pokemon_crystal = [
             """°""", 
             """  In Pokemon Crystal, in which°""", 
             """ of these locations can you NOT°""", 
-            """      find a Week Sibling?°""", 
-            """°""", 
+            """    find one of the°""", 
+            """   Day-of-the-Week Siblings?°""", 
             """°""", 
         ],
         """Route 34°°""", 
@@ -4366,7 +4384,7 @@ trivia_hard_sonic_adventure_2_battle = [
             """     at the end of a stage?°""", 
             """°""", 
         ],
-        """Holding all the rings°°""", 
+        """Holding all the Rings°°""", 
         """Getting all animals°°""", 
         """Getting a low time°°""", 
     ),
@@ -4394,8 +4412,8 @@ trivia_hard_super_mario_world = [
             """°""", 
             """°""", 
             """    What is the serial code°""", 
-            """    of the US SMW cartridge?°""", 
-            """°""", 
+            """     of Super Mario World's°""", 
+            """     cartridge in America?°""", 
             """°""", 
         ],
         """SNS-MW-USA°°""", 
@@ -4890,8 +4908,8 @@ trivia_hard_zillion = [
             """°""", 
             """°""", 
         ],
-        """Duck & shoot right wall°°""", 
-        """Code 0 0 0 0 in terminal°°""", 
+        """Duck and shoot the°        right wall°°""", 
+        """Enter the code 0 0 0 0°        in the terminal°°""", 
         """Unlock room E-5°°""", 
     ),
 ]
@@ -5282,14 +5300,14 @@ trivia_medium_donkey_kong_64 = [
             """°""", 
         ],
         """Playing an instrument°°""", 
-        """With a simian slam°°""", 
+        """With a Simian Slam°°""", 
         """Throwing a barrel°        at them°""", 
     ),
     TriviaQuestion(
         [
             """°""", 
             """ In which Donkey Kong 64 level°""", 
-            """ players can get Diddy to learn°""", 
+            """ can players get Diddy to learn°""", 
             """   the Simian Spring ability?°""", 
             """°""", 
             """°""", 
@@ -5302,7 +5320,7 @@ trivia_medium_donkey_kong_64 = [
         [
             """°""", 
             """ In which Donkey Kong 64 level°""", 
-            """ players can get Lanky to learn°""", 
+            """ can players get Lanky to learn°""", 
             """    the Orangstand ability?°""", 
             """°""", 
             """°""", 
@@ -5315,7 +5333,7 @@ trivia_medium_donkey_kong_64 = [
         [
             """°""", 
             """ In which Donkey Kong 64 level°""", 
-            """ players can get Tiny to learn°""", 
+            """ can players get Tiny to learn°""", 
             """  the Pony Tail Twirl ability?°""", 
             """°""", 
             """°""", 
@@ -5328,7 +5346,7 @@ trivia_medium_donkey_kong_64 = [
         [
             """°""", 
             """ In which Donkey Kong 64 level°""", 
-            """players can get Chunky to learn°""", 
+            """can players get Chunky to learn°""", 
             """   the Gorilla Gone ability?°""", 
             """°""", 
             """°""", 
@@ -5341,7 +5359,7 @@ trivia_medium_donkey_kong_64 = [
         [
             """°""", 
             """ In which Donkey Kong 64 level°""", 
-            """players can get Donkey to learn°""", 
+            """can players get D.K. to learn°""", 
             """   the Baboon Blast ability?°""", 
             """°""", 
             """°""", 
@@ -5476,7 +5494,7 @@ trivia_medium_donkey_kong_country_3 = [
     TriviaQuestion(
         [
             """°""", 
-            """  Which brother bear in Donkey°""", 
+            """  Which Brother Bear in Donkey°""", 
             """ Kong Country 3 asks the Kongs°""", 
             """  to deliver a present to Blue°""", 
             """      in Cotton Top Cove?°""", 
@@ -5490,7 +5508,7 @@ trivia_medium_donkey_kong_country_3 = [
         [
             """°""", 
             """     What's the name of the°""", 
-            """     main villian of Donkey°""", 
+            """     main villain of Donkey°""", 
             """        Kong Country 3?°""", 
             """°""", 
             """°""", 
@@ -5756,7 +5774,7 @@ trivia_medium_hollow_knight = [
         ],
         """14°°""", 
         """13°°""", 
-        """Can't equip that many!°°""", 
+        """You can't equip that many!°°""", 
     ),
 ]
 
@@ -5764,8 +5782,8 @@ trivia_medium_kingdom_hearts = [
     TriviaQuestion(
         [
             """°""", 
-            """      In Kingdom Hearts 1:°""", 
-            """  What is one of the required°""", 
+            """      In Kingdom Hearts 1,°""", 
+            """  what is one of the required°""", 
             """   items to craft the rift to°""", 
             """     leave Destiny Islands?°""", 
             """°""", 
@@ -5777,6 +5795,19 @@ trivia_medium_kingdom_hearts = [
 ]
 
 trivia_medium_kingdom_hearts_2 = [
+TriviaQuestion(
+        [
+            """°""", 
+            """      In Kingdom Hearts 2,°""", 
+            """  which of these classic°""", 
+            """   Disney characters does NOT°""", 
+            """appear in Timeless River?°""", 
+            """°""", 
+        ],
+        """Oswald the Lucky Rabbit°°""", 
+        """Horace Horsecollar°°""", 
+        """Clarabell Cow°°""", 
+    ),
 ]
 
 trivia_medium_kirby_64_the_crystal_shards = [
@@ -5999,7 +6030,7 @@ trivia_medium_kirbys_dream_land_3 = [
             """°""", 
             """   Which mid-boss grants you°""", 
             """     the needle ability in°""", 
-            """     Kirby's Dreamn Land 3?°""", 
+            """     Kirby's Dream Land 3?°""", 
             """°""", 
             """°""", 
         ],
@@ -6011,8 +6042,8 @@ trivia_medium_kirbys_dream_land_3 = [
         [
             """°""", 
             """  In some Kirby's Dream Land 3°""", 
-            """    levels you can find some°""", 
-            """     Waddlee Dees riding...°""", 
+            """   levels, you can find some°""", 
+            """     Waddle Dees riding...°""", 
             """°""", 
             """°""", 
         ],
@@ -6282,7 +6313,8 @@ trivia_medium_math = [
     TriviaQuestion(
         [
             """°""", 
-            """°""", 
+            """°""",
+            """     Solve this equation:°""", 
             """        1+1+1+1+1+1*0=?°""", 
             """°""", 
             """°""", 
@@ -6337,10 +6369,10 @@ trivia_medium_mega_man_2 = [
     TriviaQuestion(
         [
             """°""", 
-            """   The Boss of the Third Wily°""", 
-            """       Stage in Megaman 2°""", 
-            """        is based on... ?°""", 
-            """°""", 
+            """   The boss of the third Wily°""", 
+            """      stage in Mega Man 2°""", 
+            """        is based on which°""", 
+            """   of these Robot Masters?°""", 
             """°""", 
         ],
         """Guts Man°°""", 
@@ -6422,14 +6454,15 @@ trivia_medium_mega_man_x = [
         [
             """°""", 
             """ Which inputs should be entered°""", 
-            """ in order to summon a Hadouken°""", 
-            """         in Mega Man X?°""", 
+            """ on the D-Pad in order to°""", 
+            """ a Hadouken in Mega Man X?°""", 
             """°""", 
             """°""", 
         ],
-        """236°°""", 
-        """214°°""", 
-        """632°°""", 
+        # Some people might not be familiar with numpad notation unless they're FGC heads
+        """Quarter-circle forward°°""", 
+        """Quarter-circle back°°""", 
+        """Hold back, then forward°°""", 
     ),
     TriviaQuestion(
         [
@@ -6574,8 +6607,8 @@ trivia_medium_ocarina_of_time = [
         [
             """°""", 
             """  In Ocarina of Time, what is°""", 
-            """  the 8th item in the Trading°""", 
-            """           Sequence?°""", 
+            """  the 8th item in the trading°""", 
+            """           sequence?°""", 
             """°""", 
             """°""", 
         ],
@@ -6646,7 +6679,7 @@ trivia_medium_ocarina_of_time = [
         ],
         """With the longshot°°""", 
         """Via Kaepora Gaebora°°""", 
-        """A well timed backflip°°""", 
+        """A well-timed backflip°°""", 
     ),
     TriviaQuestion(
         [
@@ -6671,7 +6704,7 @@ trivia_medium_ocarina_of_time = [
             """°""", 
         ],
         """A golden scale°°""", 
-        """A piece of heart°°""", 
+        """A Piece of Heart°°""", 
         """A quiver upgrade°°""", 
     ),
     TriviaQuestion(
@@ -6684,8 +6717,8 @@ trivia_medium_ocarina_of_time = [
             """°""", 
         ],
         """A Bomb Bag upgrade°°""", 
-        """A golden rupee°°""", 
-        """Deku nuts°°""", 
+        """A golden Rupee°°""", 
+        """Deku Nuts°°""", 
     ),
     TriviaQuestion(
         [
@@ -6697,7 +6730,7 @@ trivia_medium_ocarina_of_time = [
             """°""", 
         ],
         """With a Boomerang°°""", 
-        """With a Deku nut°°""", 
+        """With a Deku Nut°°""", 
         """With a bush°°""", 
     ),
     TriviaQuestion(
@@ -6742,7 +6775,7 @@ trivia_medium_paper_mario = [
             """°""", 
         ],
         """Trading with Y. Yoshi°°""", 
-        """A Specific palm tree°°""", 
+        """A specific palm tree°°""", 
         """In Yoshi's Cabana°°""", 
     ),
     TriviaQuestion(
@@ -6822,16 +6855,16 @@ trivia_medium_pokemon_crystal = [
             """°""", 
             """°""", 
         ],
-        """Using the Pokegear Radio°°""", 
-        """Using the PokeFlute°°""", 
+        """Using the Pokegear's Radio°°""", 
+        """Using the Poke Flute°°""", 
         """Using the SquirtBottle°°""", 
     ),
     TriviaQuestion(
         [
             """°""", 
             """°""", 
-            """ In Pokemon Crystal, where are°""", 
-            """   the Radio Towers located?°""", 
+            """ Where are the Radio Towers°""", 
+            """  located in Pokemon Crystal?°""", 
             """°""", 
             """°""", 
         ],
@@ -6994,8 +7027,8 @@ trivia_medium_pokemon_emerald = [
             """°""", 
             """°""", 
         ],
-        """Trade from R/S°°""", 
-        """Reward from Birch°°""", 
+        """Trade from Ruby and Sapphire°°""", 
+        """Reward from Professor Birch°°""", 
         """Trade from Colosseum°°""", 
     ),
 ]
@@ -7004,9 +7037,9 @@ trivia_medium_pokemon_red_and_blue = [
     TriviaQuestion(
         [
             """°""", 
-            """  Which, of these Pokemon, can°""", 
-            """   only be caught in Pokemon°""", 
-            """   Red and not Pokemon Blue?°""", 
+            """  Which of these Pokemon can°""", 
+            """   be caught in Pokemon Red,°""", 
+            """   but not in Pokemon Blue?°""", 
             """°""", 
             """°""", 
         ],
@@ -7123,9 +7156,9 @@ trivia_medium_skyward_sword = [
             """°""", 
             """°""", 
         ],
-        """Disables Adventure Poach°°""", 
-        """Less Treasure Drop°°""", 
-        """Shorter Potion Duration°°""", 
+        """Disables the Adventure Pouch°°""", 
+        """Less treasure drops°°""", 
+        """Shorter potion duration°°""", 
     ),
     TriviaQuestion(
         [
@@ -7266,10 +7299,10 @@ trivia_medium_super_mario_64 = [
     TriviaQuestion(
         [
             """°""", 
-            """      In which version of°""", 
-            """        SM64 was the BLJ°""", 
-            """        glitch patched?°""", 
-            """°""", 
+            """    In which version of°""", 
+            """    Super Mario 64 was the°""", 
+            """    "backwards long jump"°""", 
+            """    glitch first patched?°""", 
             """°""", 
         ],
         """Shindou Edition°°""", 
@@ -7379,8 +7412,8 @@ trivia_medium_super_mario_world = [
             """°""", 
             """°""", 
         ],
-        """A 1-Up mushroom°°""", 
-        """A fire flower°°""", 
+        """A 1-Up Mushroom°°""", 
+        """A Fire Flower°°""", 
         """A coin with a smile°°""", 
     ),
     TriviaQuestion(
@@ -7388,7 +7421,7 @@ trivia_medium_super_mario_world = [
             """  In Super Mario World, yellow°""", 
             """ colored Yoshis have a special°""", 
             """     ability when carrying°""", 
-            """      a shell on its mouth°""", 
+            """    a shell in their mouth,°""", 
             """    which allows them to...°""", 
             """°""", 
         ],
