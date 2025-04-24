@@ -5410,6 +5410,7 @@ trivia_medium_donkey_kong_64 = [
         """Jungle Japes°°""", 
         """Creepy Castle°°""", 
     ),
+    # https://www.mariowiki.com/OrangStand Yes, it's capitalized in CamelCase like that
     TriviaQuestion(
         [
             """°""", 
@@ -6574,13 +6575,14 @@ trivia_medium_mega_man_x = [
     TriviaQuestion(
         [
             """°""", 
-            """ Which inputs should be entered°""", 
-            """ on the D-Pad in order to°""", 
+            """Which inputs should be entered°""", 
+            """  on the D-Pad to perform°""", 
             """ a Hadouken in Mega Man X?°""", 
             """°""", 
             """°""", 
         ],
         # Some people might not be familiar with numpad notation unless they're FGC heads
+        # But these inputs should be more legible
         """Down, down-forward,° forward°""", 
         """Down, down-back, back°°""", 
         """Hold back, then forward°°""", 
@@ -6644,7 +6646,7 @@ trivia_medium_mega_man_x2 = [
         [
             """°""", 
             """ Which inputs should be entered°""", 
-            """ on the D-Pad in order to°""", 
+            """ on the D-Pad to perform°""", 
             """ a Shoryuken in Mega Man X2?°""", 
             """°""", 
             """°""", 
