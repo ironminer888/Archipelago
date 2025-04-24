@@ -789,6 +789,34 @@ trivia_easy_hollow_knight = [
 ]
 
 trivia_easy_kingdom_hearts = [
+    TriviaQuestion(
+            [
+            
+                """°""", 
+                """In Kingdom Hearts 1,°""",
+                """what is the name of the°""", 
+                """ability where the whole°""", 
+                """party works together?°""",
+                """°""", 
+            ],
+            """Trinity°°""", 
+            """Trio°°""", 
+            """Strength of Bonds°°""", 
+        ),
+    TriviaQuestion(
+            [
+            
+                """°""", 
+                """What is the name of the°""", 
+                """main antagonist in°""",
+                """Kingdom Hearts 1?°""",
+                """°""",
+                """°""", 
+            ],
+            """Ansem, Seeker of Darkness°°""", 
+            """Xemnas°°""", 
+            """Master Xehanort°°""", 
+        )
 ]
 
 trivia_easy_kingdom_hearts_2 = [
@@ -817,7 +845,7 @@ trivia_easy_kingdom_hearts_2 = [
         """Olympus Colosseum°°""", 
         """Timeless River°°""", 
         """Halloween Town°°""", 
-    ),
+    )
 ]
 
 trivia_easy_kirby_64_the_crystal_shards = [
@@ -825,8 +853,8 @@ trivia_easy_kirby_64_the_crystal_shards = [
         [
             """°""", 
             """ How many different statues can°""", 
-            """    be seen with Cutter+Rock°""", 
-            """          in Kirby 64?°""", 
+            """  be seen with the Cutter+Rock°""", 
+            """   Copy Ability in Kirby 64?°""", 
             """°""", 
             """°""", 
         ],
@@ -3392,7 +3420,7 @@ trivia_hard_kingdom_hearts = [
             """°""", 
         ],
         """"You're stupid!"°°""", 
-        """"I implore you to°        reconsider!"°°""", 
+        """"I implore you to reconsider!"°°""", 
         """"I'm sorry, Riku!"°°""", 
     ),
 ]
@@ -3402,8 +3430,8 @@ trivia_hard_kingdom_hearts_2 = [
         [
             """°""", 
             """°""", 
-            """In the hit game Kingdom Hearts 2,°""", 
-            """    what does "DTD" stand for?°""", 
+            """ In Kingdom Hearts 2, what does°""", 
+            """ the acronym "DTD" stand for?°""", 
             """°""", 
             """°""", 
         ],
@@ -3411,6 +3439,19 @@ trivia_hard_kingdom_hearts_2 = [
         """Darkness to Doors°°""", 
         """Darkness to Darkness°°""", 
     ),
+    TriviaQuestion(
+            [
+                """°""", 
+                """     What is the name of°""", 
+                """   Demyx's sitar-like weapon°""", 
+                """     in Kingdom Hearts 2?°""", 
+                """°""",
+                """°""", 
+            ],
+            """Arpeggio°°""", 
+            """Andante°°""", 
+            """Caprice°°""", 
+        ),
 ]
 
 trivia_hard_kirby_64_the_crystal_shards = [
@@ -5743,7 +5784,7 @@ trivia_medium_genshin_impact = [
             """°""", 
             """°""", 
         ],
-        """A clinical psychologist°°""", 
+        """A clinical psychologist°°""",
         """A masseuse°°""", 
         """A maid°°""", 
     ),
@@ -5784,7 +5825,7 @@ trivia_medium_kingdom_hearts = [
             """°""", 
             """      In Kingdom Hearts 1,°""", 
             """  what is one of the required°""", 
-            """   items to craft the rift to°""", 
+            """   items to craft the raft to°""", 
             """     leave Destiny Islands?°""", 
             """°""", 
         ],
@@ -5792,22 +5833,36 @@ trivia_medium_kingdom_hearts = [
         """Bungee Cord°°""", 
         """Duck Tape°°""", 
     ),
+
+    TriviaQuestion(
+        [
+            """      As of April 2025,°""", 
+            """  which of these Disney worlds°""", 
+            """   never re-appeared in future°""", 
+            """     Kingdom Hearts titles°""", 
+            """   besides Kingdom Hearts 1?°""",
+            """°""", 
+        ],
+        """Deep Jungle°°""", 
+        """Neverland°°""", 
+        """Monstro°°""", 
+    ),
 ]
 
 trivia_medium_kingdom_hearts_2 = [
-TriviaQuestion(
-        [
-            """°""", 
-            """      In Kingdom Hearts 2,°""", 
-            """  which of these classic°""", 
-            """   Disney characters does NOT°""", 
-            """appear in Timeless River?°""", 
-            """°""", 
-        ],
-        """Oswald the Lucky Rabbit°°""", 
-        """Horace Horsecollar°°""", 
-        """Clarabell Cow°°""", 
-    ),
+    TriviaQuestion(
+            [
+                """°""", 
+                """      In Kingdom Hearts 2,°""", 
+                """     which of these classic°""", 
+                """   Disney characters does NOT°""", 
+                """    appear in Timeless River?°""", 
+                """°""", 
+            ],
+            """Oswald the Lucky Rabbit°°""", 
+            """Horace Horsecollar°°""", 
+            """Clarabell Cow°°""", 
+        )
 ]
 
 trivia_medium_kirby_64_the_crystal_shards = [
@@ -7302,7 +7357,7 @@ trivia_medium_super_mario_64 = [
             """    In which version of°""", 
             """    Super Mario 64 was the°""", 
             """    "backwards long jump"°""", 
-            """    glitch first patched?°""", 
+            """    glitch first fixed?°""", 
             """°""", 
         ],
         """Shindou Edition°°""", 
@@ -7583,9 +7638,9 @@ trivia_medium_zelda_ii_the_adventure_of_link = [
     TriviaQuestion(
         [
             """°""", 
-            """  In Zelda 2, the Adventure of°""", 
+            """  In Zelda 2: the Adventure of°""", 
             """  Link, what information does°""", 
-            """         ERROR possess?°""", 
+            """         Error possess?°""", 
             """°""", 
             """°""", 
         ],
