@@ -61,8 +61,8 @@ goal_texts = {
         "I've taken your abilities!",
         "I've taken your pets!",
         "You'll need to defeat TOKENS of my",
-        "seadogs to reach my airship.",
-        "Donkey Kong will walk the plank!",
+        "seadogs to reach my airship, or",
+        "Donkey Kong'll walk the plank!",
         "Har-har-har-har!",
         "",
         "                Kaptain K.Rool  ",
@@ -86,7 +86,7 @@ goal_texts = {
         "",
     ],
     "lost_world": [
-        #"********************************"
+       #"********************************"
         "",
         "",
         "",
@@ -120,7 +120,7 @@ goal_texts = {
         "",
     ],
     "kompletionist_item": [
-        #"********************************"
+       #"********************************"
         "",
         "",
         "",
@@ -130,7 +130,7 @@ goal_texts = {
         "save that son of a banana eater.",
         "Find my airship and ROCKS Lost",
         "World Rocks or my krew will",
-        "blow the ape down!",
+        "throw the ape overboard!",
         "Har-har-har-har!",
         "",
         "                Kaptain K.Rool  ",
@@ -154,19 +154,19 @@ goal_texts = {
         "",
     ],
     "kompletionist_tokens": [
-        #"********************************"
+       #"********************************"
         "",
         "",
         "",
         "",
         "Avast, ye monkeys reading this!",
-        "I've taken your abilities, pets,",
+        "I've taken your abilities, pets",
         "and that banana carouser ape!",
         "You'll face this old salt twice!",
         "Reach my airship by defeating TOKENS",
         "of my scallywags and find ROCKS",
         "rocks for the kore or I'll make",
-        "some ape shark bait! Har-har-har!",
+        "ape shark bait! Har-har-har!",
         "",
         "                Kaptain K.Rool  ",
         "",
