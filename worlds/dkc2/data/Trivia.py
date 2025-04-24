@@ -117,9 +117,19 @@ original_correct_answers = {
     53: 2,
 }
 
-# Note to self: no more than 31 characters per line in a trivia question!
+# Notes for future editors:
 
-# Answers can be up to 24 characters long
+# No more than 31 characters + a newline ° per line in a trivia question!
+# Trivia questions can have up to 6 lines, so that's 186 characters per question.
+
+# Answers can be up to 23 characters + newline ° long at first,
+# but a linebreak can be added like this to use more characters:
+
+#  """Fire Rod and°        Cane of Byrna°"""
+# That's a newline, then 8 spaces, then up to 24 more characters
+
+# Single line answers should end in °° so they properly line break
+
         
 trivia_easy_a_link_to_the_past = [
     TriviaQuestion(
@@ -144,7 +154,7 @@ trivia_easy_a_link_to_the_past = [
             """°""", 
             """°""", 
         ],
-        """When there's one left°°""", 
+        """When there's only one left°°""", 
         """After defeating one°°""", 
         """They're always red°°""", 
     ),
@@ -197,7 +207,7 @@ trivia_easy_a_link_to_the_past = [
             """°""", 
         ],
         """Ice Rod and Fire Rod°°""", 
-        """Cane of Somaria and°        Ice rod°""", 
+        """Cane of Somaria and°        Ice Rod°""", 
         """Fire Rod and°        Cane of Byrna°""", 
     ),
 ]
@@ -231,9 +241,9 @@ trivia_easy_astalon = [
             """°""", 
             """°""", 
         ],
-        """In a Tower°°""", 
-        """In a Castle°°""", 
-        """In a Mansion°°""", 
+        """In a tower°°""", 
+        """In a castle°°""", 
+        """In a mansion°°""", 
     ),
     TriviaQuestion(
         [
@@ -244,9 +254,9 @@ trivia_easy_astalon = [
             """°""", 
             """°""", 
         ],
-        """Blue, Red and White°°""", 
-        """Blue, Purple and Green°°""", 
-        """Blue, Gray and Orange°°""", 
+        """Blue, red and white°°""", 
+        """Blue, purple and green°°""", 
+        """Blue, gray and orange°°""", 
     ),
 ]
 
@@ -695,7 +705,7 @@ trivia_easy_final_fantasy_mystic_quest = [
         [
             """°""",
             """°""", 
-            """  What is the level cap in°""", 
+            """   What is the level cap in°""", 
             """  Final Fantasy: Mystic Quest?°""", 
             """°""", 
             """°""", 
@@ -809,26 +819,39 @@ trivia_easy_kingdom_hearts = [
             [
             
                 """°""", 
-                """What is the name of the°""", 
-                """main antagonist in°""",
-                """Kingdom Hearts 1?°""",
+                """    What is the name of the°""", 
+                """       main antagonist in°""",
+                """        Kingdom Hearts 1?°""",
                 """°""",
                 """°""", 
             ],
-            """Ansem, Seeker of Darkness°°""", 
+            """Ansem, Seeker of°        Darkness°""", 
             """Xemnas°°""", 
             """Master Xehanort°°""", 
         )
+    TriviaQuestion(
+        [
+            """°""", 
+            """  What are the creatures that°""", 
+            """Sora & his party fight against°""",
+            """   in Kingdom Hearts 1 called?°""",
+            """°""",
+            """°""",  
+        ],
+        """The Heartless°°""", 
+        """The Unversed°°""", 
+        """The Darklings°°""", 
+    ),
 ]
 
 trivia_easy_kingdom_hearts_2 = [
     TriviaQuestion(
         [
-            """In Kingdom Hearts 2,°""",
-            """how many Keyblades does Roxas°""", 
-            """pull out in front of Axel°""", 
-            """during their fight inside°""", 
-            """the simulated Twilight Town?°""", 
+            """     In Kingdom Hearts 2,°""",
+            """ how many Keyblades does Roxas°""", 
+            """   pull out in front of Axel°""", 
+            """   during their fight inside°""", 
+            """  the simulated Twilight Town?°""", 
             """°""", 
         ],
         """Two?!°°""", 
@@ -838,16 +861,16 @@ trivia_easy_kingdom_hearts_2 = [
     TriviaQuestion(
         [
             """°""", 
-            """In Kingdom Hearts 2, which°""", 
+            """ In Kingdom Hearts 2, which°""", 
             """of these worlds does NOT grant°""", 
-            """Sora a unique player model?°""", 
+            """ Sora a unique player model?°""", 
             """°""", 
             """°""", 
         ],
         """Olympus Colosseum°°""", 
         """Timeless River°°""", 
         """Halloween Town°°""", 
-    )
+    ),
 ]
 
 trivia_easy_kirby_64_the_crystal_shards = [
@@ -936,8 +959,9 @@ trivia_easy_kirby_super_star = [
         [
             """°""", 
             """    Which Kirby Super Star°""", 
-            """game mode features Wham Bam Rock°""", 
-            """        as the final boss?°""", 
+            """      game mode features°""",
+            """         Wham Bam Rock°""" 
+            """       as the final boss?°""", 
             """°""", 
             """°""", 
         ],
@@ -1176,8 +1200,8 @@ trivia_easy_luigis_mansion = [
         [
             """°""", 
             """  In Luigi's Mansion, how many°""", 
-            """   Mario's items can be found°""", 
-            """      inside the mansion?°""", 
+            """  of Mario's belongings can be°""", 
+            """   found inside the mansion?°""", 
             """°""", 
             """°""", 
         ],
@@ -1334,6 +1358,19 @@ trivia_easy_mario__luigi_superstar_saga = [
         """Mario°°""", 
         """Wario°°""", 
     ),
+    TriviaQuestion(
+        [
+            """°""", 
+            """  In Mario & Luigi: Superstar°""", 
+            """   Saga, which Mario brother°""", 
+            """  learns to use the Firebrand?°""", 
+            """°""", 
+            """°""", 
+        ],
+        """Mario°°""",
+        """Luigi°°""", 
+        """Wario°°""", 
+    ),
 ]
 
 trivia_easy_math = [
@@ -1342,7 +1379,7 @@ trivia_easy_math = [
             """°""", 
             """°""",
             """Solve this equation:°""" 
-            """           6/2(1+2)=?°""", 
+            """        6/2(1+2)=?°""", 
             """°""", 
             """°""", 
             """°""", 
@@ -1356,7 +1393,7 @@ trivia_easy_math = [
             """°""", 
             """°""",
             """Solve this equation:°""" 
-            """            1-(-1)=?°""", 
+            """         1-(-1)=?°""", 
             """°""", 
             """°""", 
             """°""", 
@@ -1440,7 +1477,7 @@ trivia_easy_mega_man_3 = [
         [
             """°""", 
             """°""", 
-            """    In Mega Man 3, who is°""", 
+            """    In Mega Man 3, what is°""", 
             """   Break Man's true identity?°""", 
             """°""", 
             """°""", 
@@ -1956,8 +1993,8 @@ trivia_easy_pokemon_crystal = [
             """°""", 
             """°""", 
             """  In Pokemon Crystal, which of°""", 
-            """  these Gym Badges is NOT°""", 
-            """  from the Johto region?°""", 
+            """   these Gym Badges is NOT°""", 
+            """    from the Johto region?°""", 
             """°""", 
         ],
         """Mine Badge°°""", 
@@ -2033,8 +2070,8 @@ trivia_easy_pokemon_crystal = [
         [
             """°""", 
             """  In Pokemon Crystal, which of°""", 
-            """ these buildings is NOT located°""", 
-            """    in Goldenrod City?°""", 
+            """these buildings is NOT located°""", 
+            """       in Goldenrod City?°""", 
             """°""", 
             """°""", 
         ],
@@ -2046,7 +2083,7 @@ trivia_easy_pokemon_crystal = [
         [
             """°""", 
             """  In Pokemon Crystal, where do°""", 
-            """  you see Raikou, Entei and°""", 
+            """   you see Raikou, Entei and°""", 
             """  Suicine for the first time?°""", 
             """°""", 
             """°""", 
@@ -2301,9 +2338,9 @@ trivia_easy_super_mario_64 = [
         [
             """°""", 
             """     In Super Mario 64, how°""", 
-            """  many stars are required for°""", 
+            """  many Power Stars do you need°""",
+            """    to collect in order for°""", 
             """    the first MIPS to spawn?°""", 
-            """°""", 
             """°""", 
         ],
         """15°°""", 
@@ -2313,20 +2350,20 @@ trivia_easy_super_mario_64 = [
     TriviaQuestion(
         [
             """°""", 
-            """    In Super Mario 64, when°""", 
-            """    you dive near a penguin,°""", 
-            """         the penguin...°""", 
+            """     In Super Mario 64, if°""", 
+            """  you do a dive near a penguin,°""", 
+            """       the penguin will...°""", 
             """°""", 
             """°""", 
         ],
-        """Dives°°""", 
-        """Does nothing°°""", 
-        """Walks away°°""", 
+        """Also do a dive°°""", 
+        """Do nothing°°""", 
+        """Walk away°°""", 
     ),
     TriviaQuestion(
         [
             """°""", 
-            """      In SM64, the 1-Up at°""", 
+            """ In Super Mario 64, the 1-Up at°""", 
             """   the top of the flagpole in°""", 
             """    Whomp's Fortress will...°""", 
             """°""", 
@@ -2339,9 +2376,9 @@ trivia_easy_super_mario_64 = [
     TriviaQuestion(
         [
             """°""", 
-            """    In SM64, how many times°""", 
-            """   do you have to throw King°""", 
-            """     Bob-Omb to defeat him?°""", 
+            """  In Super Mario 64, how many°""", 
+            """  times do you have to throw°""", 
+            """  King Bob-omb to defeat him?°""", 
             """°""", 
             """°""", 
         ],
@@ -2428,7 +2465,7 @@ trivia_easy_super_mario_world = [
         ],
         """Riding Yoshi°°""", 
         """Having a Fire Flower°°""", 
-        """While a P-Switch° is active°°""", 
+        """While a P-Switch°        is active°""", 
     ),
     TriviaQuestion(
         [
@@ -2607,9 +2644,9 @@ trivia_easy_the_legend_of_zelda = [
             """°""", 
             """°""", 
         ],
-        """an old woman°°""", 
-        """an old man°°""", 
-        """a Moblin°°""", 
+        """An old woman°°""", 
+        """An old man°°""", 
+        """A Moblin°°""", 
     ),
     TriviaQuestion(
         [
@@ -2793,8 +2830,8 @@ trivia_hard_adventure = [
             """°""", 
             """°""", 
             """   In Adventure on Atari 2600,°""", 
-            """   where would one see the credits?°""", 
-            """°""", 
+            """          where would one°""", 
+            """     see the game's credits?°""", 
             """°""", 
         ],
         """In a secret room°°""", 
@@ -3138,8 +3175,8 @@ trivia_hard_donkey_kong_country_2 = [
         [
             """°""", 
             """   In Monkey Museum, how much°""", 
-            """ does a terrarium of winky the°""", 
-            """           frog cost?°""", 
+            """ does a terrarium of Winky the°""", 
+            """           Frog cost?°""", 
             """°""", 
             """°""", 
         ],
@@ -3392,9 +3429,9 @@ trivia_hard_hollow_knight = [
             """°""", 
             """°""", 
         ],
-        """37,286 geo°°""", 
-        """36,886 geo°°""", 
-        """36,000 geo°°""", 
+        """37,286 Geo°°""", 
+        """36,886 Geo°°""", 
+        """36,000 Geo°°""", 
     ),
     TriviaQuestion(
         [
@@ -3414,15 +3451,15 @@ trivia_hard_hollow_knight = [
 trivia_hard_kingdom_hearts = [
     TriviaQuestion(
         [
-            """  In Kingdom Hearts 1,°""", 
+            """    In Kingdom Hearts 1,°""", 
             """  which of these lines does°""", 
-            """  Sora say to Riku while°""", 
-            """  confronting him aboard°""", 
-            """  Captain Hook's ship?°""",
+            """   Sora say to Riku while°""", 
+            """   confronting him aboard°""", 
+            """    Captain Hook's ship?°""",
             """°""", 
         ],
         """"You're stupid!"°°""", 
-        """"I implore you to reconsider!"°°""", 
+        """"I implore you to°         reconsider!"°""", 
         """"I'm sorry, Riku!"°°""", 
     ),
 ]
@@ -3432,7 +3469,7 @@ trivia_hard_kingdom_hearts_2 = [
         [
             """°""", 
             """°""", 
-            """ In Kingdom Hearts 2, what does°""", 
+            """In Kingdom Hearts 2, what does°""", 
             """ the acronym "DTD" stand for?°""", 
             """°""", 
             """°""", 
@@ -3454,6 +3491,19 @@ trivia_hard_kingdom_hearts_2 = [
             """Andante°°""", 
             """Caprice°°""", 
         ),
+    TriviaQuestion(
+        [
+            """      As of April 2025,°""", 
+            """  which of these Disney worlds°""", 
+            """has NEVER re-appeared in future°""", 
+            """     Kingdom Hearts titles°""", 
+            """   besides Kingdom Hearts 1?°""",
+            """°""", 
+        ],
+        """Deep Jungle°°""", 
+        """Neverland°°""", 
+        """Monstro°°""", 
+    ),
 ]
 
 trivia_hard_kirby_64_the_crystal_shards = [
@@ -3781,7 +3831,7 @@ trivia_hard_mega_man_2 = [
     TriviaQuestion(
         [
             """°""", 
-            """   In total, How many bosses°""", 
+            """   In total, how many bosses°""", 
             """    (rematches included) are°""", 
             """         in Mega Man 2?°""", 
             """°""", 
@@ -4171,7 +4221,7 @@ trivia_hard_pokemon_crystal = [
             """°""", 
             """  In Pokemon Crystal, in which°""", 
             """ of these locations can you NOT°""", 
-            """    find one of the°""", 
+            """         find one of the°""", 
             """   Day-of-the-Week Siblings?°""", 
             """°""", 
         ],
@@ -5059,7 +5109,8 @@ trivia_medium_adventure = [
         [
             """°""", 
             """°""", 
-            """ In Adventure, which dragon is°""", 
+            """  In Adventure on Atari 2600,°""",
+            """        which dragon is°"""
             """        yellow in color?°""", 
             """°""", 
             """°""", 
@@ -5300,8 +5351,8 @@ trivia_medium_diddy_kong_racing = [
             """°""", 
             """°""", 
         ],
-        """Beating any Wizpig°°""", 
-        """Beat a time trial°°""", 
+        """After beating Wizpig°°""", 
+        """After beat a time trial°°""", 
         """Finishing a trophy race°°""", 
     ),
 ]
@@ -5402,7 +5453,7 @@ trivia_medium_donkey_kong_64 = [
         [
             """°""", 
             """ In which Donkey Kong 64 level°""", 
-            """can players get D.K. to learn°""", 
+            """ can players get D.K. to learn°""", 
             """   the Baboon Blast ability?°""", 
             """°""", 
             """°""", 
@@ -5817,7 +5868,7 @@ trivia_medium_hollow_knight = [
         ],
         """14°°""", 
         """13°°""", 
-        """You can't equip that many!°°""", 
+        """You can't equip°        that many!°""", 
     ),
 ]
 
@@ -5835,19 +5886,18 @@ trivia_medium_kingdom_hearts = [
         """Bungee Cord°°""", 
         """Duck Tape°°""", 
     ),
-
     TriviaQuestion(
         [
-            """      As of April 2025,°""", 
-            """  which of these Disney worlds°""", 
-            """   never re-appeared in future°""", 
-            """     Kingdom Hearts titles°""", 
-            """   besides Kingdom Hearts 1?°""",
             """°""", 
+            """Which of these Final Fantasy°""", 
+            """VII characters does NOT appear°""",
+            """     in Kingdom Hearts 1?°""",
+            """°""",
+            """°""",  
         ],
-        """Deep Jungle°°""", 
-        """Neverland°°""", 
-        """Monstro°°""", 
+        """Barrett Wallace°°""", 
+        """Aerith Gainsborough°°""", 
+        """Cloud Strife°°""", 
     ),
 ]
 
@@ -5864,7 +5914,21 @@ trivia_medium_kingdom_hearts_2 = [
             """Oswald the Lucky Rabbit°°""", 
             """Horace Horsecollar°°""", 
             """Clarabell Cow°°""", 
-        )
+        ),
+        
+    TriviaQuestion(
+        [
+            """°""", 
+            """  In Kingdom Hearts 2, how is°""", 
+            """  the name of Organization°""", 
+            """    XIII's leader spelled?°""", 
+            """°""", 
+            """°""", 
+        ],
+        """Xemnas°°""", 
+        """Xemnus°°""", 
+        """Xemnos°°""", 
+    ),
 ]
 
 trivia_medium_kirby_64_the_crystal_shards = [
@@ -6517,7 +6581,7 @@ trivia_medium_mega_man_x = [
             """°""", 
         ],
         # Some people might not be familiar with numpad notation unless they're FGC heads
-        """Quarter-circle forward°°""", 
+        """Quarter-circle forward°""", 
         """Quarter-circle back°°""", 
         """Hold back, then forward°°""", 
     ),
@@ -6760,7 +6824,7 @@ trivia_medium_ocarina_of_time = [
             """      in Ocarina of Time?°""", 
             """°""", 
         ],
-        """A golden scale°°""", 
+        """A Golden Scale°°""", 
         """A Piece of Heart°°""", 
         """A quiver upgrade°°""", 
     ),
@@ -6775,7 +6839,7 @@ trivia_medium_ocarina_of_time = [
         ],
         """A Bomb Bag upgrade°°""", 
         """A golden Rupee°°""", 
-        """Deku Nuts°°""", 
+        """Some Deku Nuts°°""", 
     ),
     TriviaQuestion(
         [
@@ -6912,7 +6976,7 @@ trivia_medium_pokemon_crystal = [
             """°""", 
             """°""", 
         ],
-        """Using the Pokegear's Radio°°""", 
+        """Using the Pokegear's°        Radio°""", 
         """Using the Poke Flute°°""", 
         """Using the SquirtBottle°°""", 
     ),
@@ -6946,7 +7010,7 @@ trivia_medium_pokemon_crystal = [
         [
             """°""", 
             """   In Pokemon Crystal, which°""", 
-            """    of these Trainer Classes°""", 
+            """     of these Trainer types°""", 
             """    can you NOT find in the°""", 
             """         National Park?°""", 
             """°""", 
@@ -6972,8 +7036,8 @@ trivia_medium_pokemon_crystal = [
         [
             """°""", 
             """   In Pokemon Crystal, which°""", 
-            """  Trainer Classes can be found°""", 
-            """       on Goldenrod Gym?°""", 
+            """   Trainer types can be found°""", 
+            """       in Goldenrod Gym?°""", 
             """°""", 
             """°""", 
         ],
@@ -6985,8 +7049,8 @@ trivia_medium_pokemon_crystal = [
         [
             """°""", 
             """   In Pokemon Crystal, which°""", 
-            """  Trainer Classes can be found°""", 
-            """        on Ecruteak Gym?°""", 
+            """   Trainer types can be found°""", 
+            """        in Ecruteak Gym?°""", 
             """°""", 
             """°""", 
         ],
@@ -6998,8 +7062,8 @@ trivia_medium_pokemon_crystal = [
         [
             """°""", 
             """   In Pokemon Crystal, which°""", 
-            """  Trainer Classes can be found°""", 
-            """         on Azalea Gym?°""", 
+            """   Trainer types can be found°""", 
+            """         in Azalea Gym?°""", 
             """°""", 
             """°""", 
         ],
@@ -7011,8 +7075,8 @@ trivia_medium_pokemon_crystal = [
         [
             """°""", 
             """   In Pokemon Crystal, which°""", 
-            """  Trainer Classes can be found°""", 
-            """        on Mahogany Gym?°""", 
+            """   Trainer types can be found°""", 
+            """        in Mahogany Gym?°""", 
             """°""", 
             """°""", 
         ],
@@ -7024,8 +7088,8 @@ trivia_medium_pokemon_crystal = [
         [
             """°""", 
             """  In Pokemon Crystal, which is°""", 
-            """ the only Trainer Classes found°""", 
-            """         on Violet Gym?°""", 
+            """   the only Trainer type found°""", 
+            """         in Violet Gym?°""", 
             """°""", 
             """°""", 
         ],
@@ -7038,7 +7102,7 @@ trivia_medium_pokemon_crystal = [
             """°""", 
             """  In Pokemon Crystal, which is°""", 
             """  the only Trainer Class found°""", 
-            """       on Blackthorn Gym?°""", 
+            """       in Blackthorn Gym?°""", 
             """°""", 
             """°""", 
         ],
@@ -7084,9 +7148,9 @@ trivia_medium_pokemon_emerald = [
             """°""", 
             """°""", 
         ],
-        """Trade from Ruby and Sapphire°°""", 
-        """Reward from Professor Birch°°""", 
-        """Trade from Colosseum°°""", 
+        """Trade from Pokemon°        Ruby and Sapphire°""", 
+        """Reward from Professor°        Birch°""", 
+        """Trade from Pokemon°        Colosseum°""", 
     ),
 ]
 
@@ -7307,9 +7371,9 @@ trivia_medium_sonic_adventure_2_battle = [
             """°""", 
             """°""", 
         ],
-        """Eight Chao°°""", 
-        """Six Chao°°""", 
-        """Ten Chao°°""", 
+        """Eight°°""", 
+        """Six°°""", 
+        """Ten°°""", 
     ),
     TriviaQuestion(
         [
@@ -7343,10 +7407,10 @@ trivia_medium_super_mario_64 = [
     TriviaQuestion(
         [
             """°""", 
-            """°""", 
-            """    In SM64, how many coins°""", 
-            """ are there in Jolly Roger Bay?°""", 
-            """°""", 
+            """      In Super Mario 64,°""",
+            """      how many coins can°""", 
+            """     be collected in the°""", 
+            """    Jolly Roger Bay course?°""", 
             """°""", 
         ],
         """104°°""", 
@@ -7463,9 +7527,9 @@ trivia_medium_super_mario_world = [
     TriviaQuestion(
         [
             """°""", 
-            """ What's an item that Magikoopas°""", 
-            """   can spawn with their magic°""", 
-            """     in Super Mario World?°""", 
+            """  Which of these items can°""", 
+            """ Magikoopas spawn with their°""", 
+            """ magic in Super Mario World?°""", 
             """°""", 
             """°""", 
         ],
