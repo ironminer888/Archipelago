@@ -3452,7 +3452,7 @@ trivia_hard_kingdom_hearts = [
     TriviaQuestion(
         [
             """°""", 
-            """Which of these Final Fantasy°""", 
+            """ Which of these Final Fantasy°""", 
             """VII characters does NOT appear°""",
             """     in Kingdom Hearts 1?°""",
             """°""",
@@ -3461,6 +3461,21 @@ trivia_hard_kingdom_hearts = [
         """Barrett Wallace°°""", 
         """Aerith Gainsborough°°""", 
         """Cloud Strife°°""", 
+    ),
+    
+    TriviaQuestion(
+        [
+        """°""", 
+            """     As of April 2025,°""", 
+            """ which of these Disney worlds°""", 
+            """   has NEVER re-appeared°""",
+            """outside of Kingdom Hearts 1?°""",
+            """°""",
+
+        ],
+        """Deep Jungle°°""", 
+        """Neverland°°""", 
+        """Monstro°°""", 
     ),
 ]
 
@@ -3491,20 +3506,6 @@ trivia_hard_kingdom_hearts_2 = [
             """Andante°°""", 
             """Caprice°°""", 
         ),
-    TriviaQuestion(
-        [
-        """°""", 
-            """     As of April 2025,°""", 
-            """ which of these Disney worlds°""", 
-            """   has NEVER re-appeared°""",
-            """outside of Kingdom Hearts 1?°""",
-            """°""",
-
-        ],
-        """Deep Jungle°°""", 
-        """Neverland°°""", 
-        """Monstro°°""", 
-    ),
     TriviaQuestion(
         [
             """°""", 
@@ -5903,12 +5904,11 @@ trivia_medium_kingdom_hearts = [
     ),
     TriviaQuestion(
             [
-            
                 """°""", 
-                """In Kingdom Hearts 1,°""",
-                """what is the name of the°""", 
-                """ability where the whole°""", 
-                """party works together?°""",
+                """      In Kingdom Hearts 1,°""",
+                """     what is the name of the°""", 
+                """     ability where the whole°""", 
+                """      party works together?°""",
                 """°""", 
             ],
             """Trinity°°""", 
