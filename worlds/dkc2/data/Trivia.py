@@ -805,20 +805,6 @@ trivia_easy_kingdom_hearts = [
             [
             
                 """°""", 
-                """In Kingdom Hearts 1,°""",
-                """what is the name of the°""", 
-                """ability where the whole°""", 
-                """party works together?°""",
-                """°""", 
-            ],
-            """Trinity°°""", 
-            """Trio°°""", 
-            """Strength of Bonds°°""", 
-        ),
-    TriviaQuestion(
-            [
-            
-                """°""", 
                 """    What is the name of the°""", 
                 """       main antagonist in°""",
                 """        Kingdom Hearts 1?°""",
@@ -869,7 +855,7 @@ trivia_easy_kingdom_hearts_2 = [
         ],
         """Olympus Colosseum°°""", 
         """Timeless River°°""", 
-        """Halloween Town°°""", 
+        """Pride Lands°°""", 
     ),
 ]
 
@@ -3462,6 +3448,20 @@ trivia_hard_kingdom_hearts = [
         """"I implore you to°         reconsider!"°""", 
         """"I'm sorry, Riku!"°°""", 
     ),
+    
+    TriviaQuestion(
+        [
+            """°""", 
+            """Which of these Final Fantasy°""", 
+            """VII characters does NOT appear°""",
+            """     in Kingdom Hearts 1?°""",
+            """°""",
+            """°""",  
+        ],
+        """Barrett Wallace°°""", 
+        """Aerith Gainsborough°°""", 
+        """Cloud Strife°°""", 
+    ),
 ]
 
 trivia_hard_kingdom_hearts_2 = [
@@ -3493,16 +3493,30 @@ trivia_hard_kingdom_hearts_2 = [
         ),
     TriviaQuestion(
         [
-            """      As of April 2025,°""", 
-            """  which of these Disney worlds°""", 
-            """has NEVER re-appeared in future°""", 
-            """     Kingdom Hearts titles°""", 
-            """   besides Kingdom Hearts 1?°""",
-            """°""", 
+        """°""", 
+            """     As of April 2025,°""", 
+            """ which of these Disney worlds°""", 
+            """   has NEVER re-appeared°""",
+            """outside of Kingdom Hearts 1?°""",
+            """°""",
+
         ],
         """Deep Jungle°°""", 
         """Neverland°°""", 
         """Monstro°°""", 
+    ),
+    TriviaQuestion(
+        [
+            """°""", 
+            """  During the final battle in°""", 
+            """   Kingdom Hearts 2, which°""", 
+            """   of these emotions does°""", 
+            """  Xemnas state is "supreme?"°""", 
+            """°""", 
+        ],
+        """Anger and hate°°""", 
+        """Fear and despair°°""", 
+        """Envy and spite°°""", 
     ),
 ]
 
@@ -5888,18 +5902,19 @@ trivia_medium_kingdom_hearts = [
         """Duck Tape°°""", 
     ),
     TriviaQuestion(
-        [
-            """°""", 
-            """Which of these Final Fantasy°""", 
-            """VII characters does NOT appear°""",
-            """     in Kingdom Hearts 1?°""",
-            """°""",
-            """°""",  
-        ],
-        """Barrett Wallace°°""", 
-        """Aerith Gainsborough°°""", 
-        """Cloud Strife°°""", 
-    ),
+            [
+            
+                """°""", 
+                """In Kingdom Hearts 1,°""",
+                """what is the name of the°""", 
+                """ability where the whole°""", 
+                """party works together?°""",
+                """°""", 
+            ],
+            """Trinity°°""", 
+            """Trio°°""", 
+            """Strength of Bonds°°""", 
+        ),
 ]
 
 trivia_medium_kingdom_hearts_2 = [
