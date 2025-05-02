@@ -5893,9 +5893,9 @@ trivia_medium_kingdom_hearts = [
         [
             """°""", 
             """      In Kingdom Hearts 1,°""", 
-            """  what is one of the required°""", 
-            """   items to craft the raft to°""", 
-            """     leave Destiny Islands?°""", 
+            """which of these materials do you°""", 
+            """  need to collect for the raft°""", 
+            """   during the game's opening?°""", 
             """°""", 
         ],
         """Cloth°°""", 
