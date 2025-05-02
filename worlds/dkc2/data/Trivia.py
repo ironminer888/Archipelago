@@ -154,7 +154,7 @@ trivia_easy_a_link_to_the_past = [
             """°""", 
             """°""", 
         ],
-        """When there's only one left°°""", 
+        """When there's only°         one left°""", 
         """After defeating one°°""", 
         """They're always red°°""", 
     ),
