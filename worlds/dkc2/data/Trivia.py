@@ -5923,15 +5923,14 @@ trivia_medium_kingdom_hearts_2 = [
                 """°""", 
                 """      In Kingdom Hearts 2,°""", 
                 """     which of these classic°""", 
-                """   Disney characters does NOT°""", 
-                """    appear in Timeless River?°""", 
+                """  Mickey Mouse characters do°""", 
+                """ NOT appear in Timeless River?°""", 
                 """°""", 
             ],
             """Oswald the Lucky Rabbit°°""", 
             """Horace Horsecollar°°""", 
             """Clarabell Cow°°""", 
         ),
-        
     TriviaQuestion(
         [
             """°""", 
@@ -5943,8 +5942,22 @@ trivia_medium_kingdom_hearts_2 = [
         ],
         """Xemnas°°""", 
         """Xemnus°°""", 
-        """Xemnos°°""", 
+        """Zemnas°°""", 
     ),
+    TriviaQuestion(
+        [
+            """°""", 
+            """In Kingdom Hearts 2, what's the°""", 
+            """  password that Pence uses to°""", 
+            """    access Ansem the Wise's°""", 
+            """   computer in Twilight Town?°""", 
+            """°""", 
+        ],
+        """Sea-salt ice cream°°""", 
+        """Sky-sugar ice cream°°""", 
+        """Land-pepper ice cream°°""", 
+    ),
+
 ]
 
 trivia_medium_kirby_64_the_crystal_shards = [
